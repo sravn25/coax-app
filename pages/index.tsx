@@ -4,10 +4,10 @@ import ArticleList from "../components/ArticleList";
 export default function Home({ articles }) {
   return (
     <div>
-      <head>
+      <Head>
         <title>Coax</title>
         <meta name="keywords" content="confession posts, blogpost" />
-      </head>
+      </Head>
 
       <ArticleList articles={articles} />
     </div>
